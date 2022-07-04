@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1025px;
+    height: 1244px;
+    
+}
+
+/*---- header----- */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+}
+.header-right{
+    display: flex;
+}
+.icon-header-left{
+    padding-top: 24px;
+    padding-left: 27px;
+    font-size: 17px;
+    
+}
+.title-header{
+    font-family: 'Peralta', cursive;
+    font-size: 24px;
+    margin-left: 27px;
+    margin-top: 18px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 500px;
+    height: 40px;
+    margin: 11px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.icon-search{
+    position: absolute;
+    top:30%;
+    left: 4%;
+    
+}
+.input-text{
+    padding-left: 46px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.input-text:hover{
+    border-color: #F04438 ;
+}
+
+.input-text:active{
+    border-color: aqua;
+    outline:none ;
+}
+/* .search-p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 8px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.icon-header-right{
+    margin-top: 25px;
+    padding-right: 27px ;
+    font-size: 18px;
+}
+.img-header{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right:24px ;
+    margin-top: 15px;
+}
+
+             /* END HEADER */
+
+/*--- speakers--- */
+
+.speakers{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+ }
+ .fa-angle-left{
+    font-size: 20px;
+    margin-left: 25px ;
+ }
+ .speakers-p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    margin-left: 33px;
+    font-weight: 600;
+}
+
+            /* -----end speakers------ */
+
+    /*---- box ---*/ 
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin: 40px 24px;
+    
+    }
+    .element{
+        width: 476px;
+        height: 296px;
+        border-radius: 6%;
+        display: flex;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        
+    }      
+    .luffy{
+        background-color: #FFD38A;
+    }
+    .kratos{
+        background-color: #ABE1FF;
+    }
+    .naruto{
+        background-color: #D6E7FF;
+    }
+    .conorkenway{
+        background-color: #ADFFE6;
+    }
+    .sukuna{
+        background-color: #FFC5A0;
+    }
+    .thor{
+        background-color: #A5FF96;
+    }  
+    
+    .element-left{
+        width: 238px ;
+        display: flex;
+        background-color: #e2e2e2 ;
+        border-radius: 5%;
+        flex-direction: column;
+    }
+
+    .avatar-1{
+        background: url(https://inkythuatso.com/uploads/thumbnails/800/2022/03/2665651-15-15-34-30.jpg) top center / cover no-repeat;
+        height: 950px;
+        width: 206px;
+        border-radius: 20px;
+        margin: 16px;
+        position: relative;
+    }
+    .avatar-2{
+        background: url(https://cdna.artstation.com/p/assets/images/images/017/084/102/large/massimiliano-bianchini-opening1.jpg?1554575950) top center / cover no-repeat;
+        height: 950px;
+        width: 206px;
+        border-radius: 20px;
+        margin: 16px;
+        position: relative;
+       
+    }
+    .avatar-3{
+        background: url(https://salt.tikicdn.com/ts/review/cd/0c/f0/7cb954f475d2f66b294542287d32c997.jpg) top center / cover no-repeat;
+        height: 950px;
+        width: 206px;
+        border-radius: 20px;
+        margin: 16px;
+        position: relative;
+    }
+    .avatar-4{
+        background: url(https://static.zerochan.net/Connor.Kenway.%28Ratohnhak%C3%A9%3ATon%29.full.1394651.jpg) top center / cover no-repeat;
+        height: 950px;
+        width: 206px;
+        border-radius: 20px;
+        margin: 16px;
+        position: relative;
+    }
+    .avatar-5{
+        background: url(https://cdn.shopify.com/s/files/1/0014/2648/9388/products/ultra-tokyo-connection-nendoroids-jujutsu-kaisen-sukuna-nendoroid-29940321321004_900x900.jpg?v=1648238097) top center / cover no-repeat;
+        height: 950px;
+        width: 206px;
+        border-radius: 20px;
+        margin: 16px;
+        position: relative;
+    }
+    .avatar-6{
+        background: url(https://i.pinimg.com/474x/31/b7/38/31b738cdcb9887ce37b2860f5cd085ea--thor-marvel-marvel-comics.jpg) top center / cover no-repeat;
+        height: 950px;
+        width: 206px;
+        border-radius: 20px;
+        margin: 16px;
+        position: relative;
+    }
+
+    /* status */
+.status-online{
+    position: absolute;
+    padding: 6px 8px;
+    width: 56px;
+    height: 32px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #69A042;
+    border-radius: 16px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.status-away{
+    position: absolute;
+    padding: 6px 8px;
+    width: 49px;
+    height: 32px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #F8981D;
+    border-radius: 16px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.status-disturb{
+    position: absolute;
+    padding: 6px 8px;
+    width: 103px;
+    height: 32px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #F04438;
+    border-radius: 16px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.status-offline{
+    position: absolute;
+    padding: 6px 8px;
+    width: 58px;
+    height: 32px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #828282;
+    border-radius: 16px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+     /* icon */
+
+    .icon-element-left{
+        display: flex;
+        width:238.25px ;
+        height: 296px;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 16px;
+        margin-left: 40px;
+    }
+    .ic-mess{
+        background-color: #333;
+        color: #fff;
+        font-size: 16px;
+        height: 32px;
+        width: 32px;
+        border-radius: 16px;
+        padding: 9px 8px 8px 8px;
+        margin: 8px;
+    }
+    .ic-video{
+        background-color: #333;
+        color: #fff;
+        font-size: 16px;
+        height: 32px;
+        width: 32px;
+        border-radius: 16px;
+        padding: 8px;
+        margin: 8px;
+    }
+     .ic-micro{
+        background-color: #333;
+        color: #fff;
+        font-size: 16px;
+        height: 32px;
+        width: 32px;
+        border-radius: 16px;
+        padding: 8px 10px 8px 10px;
+        margin: 8px;
+    }
+    .element-right{
+    
+    }
+
+    /* --------infomation------- */
+    .infomation{
+        width: 206px;
+        height: 164px;
+        margin-top: 32px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .name{
+        font-family: system-ui, -apple-system,  'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .job{
+        font-family: system-ui, -apple-system, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 16px;
+    }
+    
+    .location{
+        display: flex;
+        margin-top: 8px;
+    }
+    .fa-location-dot{
+        font-size:16px ;
+        margin-top: 4px ;
+    }
+    .location-p{
+        font-family: system-ui, -apple-system, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 8px;
+    }
+    .about{
+        display: flex;
+        flex-direction: row;
+        margin-top: 8px;
+    }
+    .speaks{
+        font-family: system-ui, -apple-system, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    
+    .english{
+        font-family: system-ui, -apple-system, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 8px;
+    }
+    
+    /*----- icon information-------- */
+    .icon-infomation{
+        margin: 44px 0px 24px 24px;
+    }
+    .icon-infomation .ic-facebook{
+        background-color: #fff;
+        font-size: 18px;
+        height: 32px;
+        width: 32px;
+        border-radius: 16px;
+        padding: 8px 8px 8px 10px;
+        margin-right: 16px;
+    }
+      .icon-infomation .ic-in{
+        background-color: #fff;
+        font-size: 18px;
+        height: 32px;
+        width: 32px;
+        border-radius: 16px;
+        padding: 8px 8px 9px 9px;
+        margin-right: 16px;
+    } 
+    .icon-infomation .ic-drib{
+        background-color: #fff;
+        font-size: 18px;
+        height: 32px;
+        width: 32px;
+        border-radius: 16px;
+        padding: 8px 8px 8px 7px;
+        margin-right: 16px;
+    }
+  
+    .icon-infomation .ic-be{
+        background-color: #fff;
+        font-size: 16px;
+        height: 32px;
+        width: 32px;
+        border-radius: 16px;
+        padding: 8px 8px 8px 7px;
+        margin-right: 16px;
+    }
+    
+    
