@@ -422,25 +422,12 @@
             flex-direction: column;
             flex-wrap: nowrap;
             position: relative;
-            width: 510px;
+            /* width: 510px; */
         }
-      .element{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        width: 478px;
-        height: 296px;
-
-      }
       .element-left{
         width: 239px;
         height: 296px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 16px 8px;
-        gap: 8px;
+     
       }
       .icon-element-left{
         
@@ -455,36 +442,36 @@
         height: 36px;
       }
       .avatar-1{
-        margin: 0;
+        margin: 15px;
         width: 207px;
         height: 200px;
 
       }
       .avatar-2{
-        margin: 0;
+        margin: 15px;
         width: 207px;
         height: 200px;
 
       }
       .avatar-3{
-        margin: 0;
+        margin: 15px;
         width: 207px;
         height: 200px;
       }
       
       .avatar-4 {
-        margin: 0;
+        margin: 15px;
         width: 207px;
         height: 200px;
       }
       .avatar-5 {
-        margin: 0;
+        margin: 15px;
         width: 207px;
         height: 200px;
       }
       
       .avatar-6{
-        margin: 0;
+        margin: 15px;
         width: 207px;
         height: 200px;
       }
@@ -534,8 +521,8 @@
         }
       .element{
         display: flex;
-        flex-direction: row;
-        align-items: flex-start;
+        /* flex-direction: row;
+        align-items: flex-start; */
         padding: 0px;
         width: 328px;
         height: 228px;
@@ -544,9 +531,6 @@
       .element-left{
         width: 184px;
         height: 228px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
         padding: 16px 8px;
         gap: 8px;
       }
@@ -670,10 +654,7 @@
         }
         .box{
          
-        display: flex;
-        flex-wrap: wrap;
-        gap: 16px;
-        position: relative;
+          
         
         }
       .element{
@@ -786,4 +767,5 @@
     .icon-infomation .ic-be{
         margin-right: 10px;
     }
+    /* ... */
     }
