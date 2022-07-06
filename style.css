@@ -405,5 +405,385 @@
         padding: 8px 8px 8px 7px;
         margin-right: 16px;
     }
+
+    /* Mobile */
+    @media only screen and (min-width:510px) and (max-width:719px) {
+        .header{
+           
+        }
+        .header-right{
+            display: none;
+        }
+        .search{
+           display: none;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            position: relative;
+            width: 510px;
+        }
+      .element{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        width: 478px;
+        height: 296px;
+
+      }
+      .element-left{
+        width: 239px;
+        height: 296px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 8px;
+        gap: 8px;
+      }
+      .icon-element-left{
+        
+        margin-left: 0px;
+        margin-top: 6px;
+        height: 35px;
+      }
+      .element-right .name{
+        
+        font-size: 24px;
+        width: 207px;
+        height: 36px;
+      }
+      .avatar-1{
+        margin: 0;
+        width: 207px;
+        height: 200px;
+
+      }
+      .avatar-2{
+        margin: 0;
+        width: 207px;
+        height: 200px;
+
+      }
+      .avatar-3{
+        margin: 0;
+        width: 207px;
+        height: 200px;
+      }
+      
+      .avatar-4 {
+        margin: 0;
+        width: 207px;
+        height: 200px;
+      }
+      .avatar-5 {
+        margin: 0;
+        width: 207px;
+        height: 200px;
+      }
+      
+      .avatar-6{
+        margin: 0;
+        width: 207px;
+        height: 200px;
+      }
+
+      .job{
+        font-weight: 400;
+      }
+      .about .english{
+        width: 135px;
+        height: 24px;
+        
+        
+      }
+
+      .icon-infomation .ic-facebook{
+      
+        margin-right: 10px;
+    }
+      .icon-infomation .ic-in{
+        margin-right: 10px;
+    } 
+    .icon-infomation .ic-drib{
+        margin-right: 10px;
+    }
+  
+    .icon-infomation .ic-be{
+        margin-right: 10px;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:509px) {
+        .header{
+           
+        }
+        .header-right{
+            display: none;
+        }
+        .search{
+           display: none;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            width: 360px;
+            height: 1650px;
+            position: relative;
+        }
+      .element{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        width: 328px;
+        height: 228px;
+
+      }
+      .element-left{
+        width: 184px;
+        height: 228px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 8px;
+        gap: 8px;
+      }
+      .icon-element-left{
+        
+        margin-left: 175px;
+        height: 35px;
+      }
+      .element-right .name{
+        font-size: 24px;
+        width: 112px;
+        height: 72px;
+      }
+      .avatar-1{
+        margin: 0;
+        width: 168px;
+        height: 156px;
+      }
+      .avatar-2{
+        margin: 0;
+        width: 168px;
+        height: 156px;
+      }
+      .avatar-3{
+        margin: 0;
+        width: 168px;
+        height: 156px;
+      }
+      
+      .avatar-4 {
+        margin: 0;
+        width: 168px;
+        height: 156px;
+      }
+      .avatar-5 {
+        margin: 0;
+        width: 168px;
+        height: 156px;
+      }
+      
+      .avatar-6{
+        margin: 0;
+        width: 168px;
+        height: 156px;
+      }
+      .status-online{
+        font-size: 0;
+        width: 32px;
+        
+    }
+    .status-away{
+        font-size: 0;
+        width: 32px;
+    }
+    .status-disturb{
+        font-size: 0;
+        width: 32px;
+
+    }
+    .status-offline{
+        font-size: 0;
+        width: 32px;
+      
+    }
+   
+      .location{
+        display: none;
+      }
+      .about{
+        display: none;
+      }
+      .job{
+        font-weight: 400;
+      }
+      .icon-infomation{
+        /* display: none; */
+        position: absolute;
+        left: 0;
+        margin: -11px 0px 0px 20px;
+      }
+      .icon-infomation .ic-facebook{
+      
+        margin-right: 2px;
+    }
+      .icon-infomation .ic-in{
+        margin-right: 2px;
+    } 
+    .icon-infomation .ic-drib{
+        margin-right: 2px;
+    }
+  
+    .icon-infomation .ic-be{
+        margin-right: 2px;
+    }
+    }
+
+
     
+
+    /* Tablet */
+    @media only screen and (min-width:720px) and (max-width:1024px) {
+        .header{
+           justify-content: flex-start;
+            padding: 16px 24px;
+            gap: 120px;
+        }
+        .header-right{
+            margin-left: 55px;  
+        }
+        .speakers{
+            margin-left: 24px;
+            font-size: 36px;
+        }
+        .fa-angle-left{
+           font-size: 11px;
+        }
+       
+        .search{
+            width: 166px;
+            height: 40px;
+        }
+        .box{
+         
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        position: relative;
+        
+        }
+      .element{
+        display: flex;
+        padding: 0px;
+        width: 328px;
+        height: 228px;
+        margin-left: 24px;
+
+      }
+      .element-left{
+        width: 184px;
+        height: 228px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 8px;
+        gap: 8px;
+      }
+      .icon-element-left{
+        
+        margin-left: 177px;
+        margin-top: 6px;
+        height: 35px;
+      }
+      .element-right .name{
+        
+        font-size: 24px;
+        width: 112px;
+        height: 72px;
+      }
+      .job{
+        font-weight: 400;
+        font-size: 16px;
+      }
+      .avatar-1{
+        margin: 0;
+        width: 168px;
+        height: 156px;
+
+      }
+      .avatar-2{
+        margin: 0;
+        width: 168px;
+        height: 156px;
+
+      }
+      .avatar-3{
+        margin: 0;
+        width: 168px;
+        height: 156px;
+      }
+      
+      .avatar-4 {
+        margin: 0;
+        width: 168px;
+        height: 156px;
+      }
+      .avatar-5 {
+        margin: 0;
+        width: 168px;
+        height: 156px;
+      }
+      
+      .avatar-6{
+        margin: 0;
+        width: 168px;
+        height: 156px;
+      }
+    .status-online{
+        width: 32px;
+        font-size: 0; 
+    }
+    .status-away{ 
+        width: 32px;
+        font-size: 0; 
+    }
+    .status-disturb{
+        width: 32px;
+        font-size: 0; 
+    }
+    .status-offline{
+        width: 32px;
+        font-size: 0; 
+    }
+   
+      .location{
+       display: none;
+      }
+      .about{
+        display: none;
+      }
+
+      .icon-infomation{
+        
+        margin: -10px 0px 0px -179px;
     
+      }
+      .icon-infomation .ic-facebook{
+      
+        margin-right: 10px;
+    }
+      .icon-infomation .ic-in{
+        margin-right: 10px;
+    } 
+    .icon-infomation .ic-drib{
+        margin-right: 10px;
+    }
+  
+    .icon-infomation .ic-be{
+        margin-right: 10px;
+    }
+    }
